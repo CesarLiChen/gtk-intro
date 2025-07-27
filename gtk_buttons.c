@@ -10,7 +10,8 @@ int main(int argc, char *argv[])
 {
 	gtk_init(&argc, &argv);
 	GtkWidget *win = gtk_window_new(GTK_WINDOW_TOPLEVEL);
-	GtkWidget *btn = gtk_button_new_with_label("Close window");
+	GtkWidget *btn = 
+		gtk_button_new_with_label("Close window button");
 
 	// Connect handler function to clicked signal gen by button.
 	// G_CALLBACK is the handler function.

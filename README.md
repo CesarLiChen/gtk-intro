@@ -26,7 +26,11 @@ Ch. 14: First GTK Program
 - [first_prog.c](first_prog.c) 
 
 Ch. 15: Buttons  
+- [gtk_buttons.c](gtk_buttons.c)
+
 Ch. 16: Labels and layout  
+- [gtk_labels_layout.c](gtk_labels_layout.c) 
+
 Ch. 17: More advanced layout  
 Ch. 18: GUI user input  
 Ch. 19: Combo boxes and list stores  
