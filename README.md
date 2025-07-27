@@ -11,5 +11,28 @@ Installation and compilation instructions from [Fedora's documentation](https://
 sudo dnf install gtk3-devel gstreamer1-devel clutter-devel webkit2gtk3-devel libgda-devel gobject-introspection-devel
 ```
 - To compile (e.g. compiling a file called gtk_prog.c):
-- `gcc gtk_prog.c -o gtk_prog \`pkg-config --cflags --libs gtk+-3.0\``
+- `gcc \`pkg-config --cflags --libs gtk+-3.0\` -o gtk_prog gtk_prog.c`
 - To run executable that is created, do: `./gtk_prog`
+
+### Follows An Introduction to C & GUI Programming book.
+
+Specifically:  
+Ch. 13: Intro to GTK  
+- GTK -> GIMP Toolkit
+- *Widgets* are the fundamental building blocks.
+  - Everything on the screen (window, button, label) is a widget.
+
+Ch. 14: First GTK Program  
+- [first_prog.c](first_prog.c) 
+
+Ch. 15: Buttons  
+Ch. 16: Labels and layout  
+Ch. 17: More advanced layout  
+Ch. 18: GUI user input  
+Ch. 19: Combo boxes and list stores  
+Ch. 20: Tree views  
+Ch. 21: Menus  
+Ch. 22: Dialogs  
+Ch. 23: Built-in dialogs  
+Ch. 24: Customising widgets  
+Ch. 25: Glade  
