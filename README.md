@@ -31,7 +31,15 @@ Ch. 15: Buttons
 Ch. 16: Labels and layout  
 - [gtk_labels_layout.c](gtk_labels_layout.c) 
 
-Ch. 17: More advanced layout  
+Ch. 17: More advanced layout
+- Worked on top of .c file from Ch. 16 
+- `gtk_box_pack_start(name_of_box, widget, expand, fill, padding)`
+- Nested vertical and horizontal boxes are perfectly fine and gives
+better control over appearance there is simpler way. Tables.
+- For below [gtk_tables.c](gtk_tables.c)
+- GtkTable widget. [has since been deprecated]
+- Use GtkGrid instead.
+
 Ch. 18: GUI user input  
 Ch. 19: Combo boxes and list stores  
 Ch. 20: Tree views  
