@@ -41,6 +41,10 @@ better control over appearance there is simpler way. Tables.
 - Use GtkGrid instead.
 
 Ch. 18: GUI user input  
+- GtkTextEntry [gtk_text_entry.c](gtk_text_entry.c)
+- GtkSpinButton [gtk_spin_btn.c](gtk_spin_btn.c)
+- GtkCheckButton [gtk_check_btn.c](gtk_check_btn.c)
+
 Ch. 19: Combo boxes and list stores  
 Ch. 20: Tree views  
 Ch. 21: Menus  
