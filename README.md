@@ -46,7 +46,11 @@ Ch. 18: GUI user input
 - GtkCheckButton [gtk_check_btn.c](gtk_check_btn.c)
 - GtkRadioButton [gtk_radio_btn.c](gtk_radio_btn.c)
 
-Ch. 19: Combo boxes and list stores  
+Ch. 19: Combo boxes and list stores 
+- [gtk_combo_box.c](gtk_combo_box.c)
+- List stores, although more complicated, makes it easier to sort incoming data for input into the combo boxes.
+- [gtk_list_store.c](gtk_list_store.c)
+
 Ch. 20: Tree views  
 Ch. 21: Menus  
 Ch. 22: Dialogs  
