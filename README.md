@@ -52,6 +52,8 @@ Ch. 19: Combo boxes and list stores
 - [gtk_list_store.c](gtk_list_store.c)
 
 Ch. 20: Tree views  
+- Made for List Stores since they're designed to be the data store for GtkTreeView widget.
+- [gtk_tree_views.c](gtk_tree_views.c)
 Ch. 21: Menus  
 Ch. 22: Dialogs  
 Ch. 23: Built-in dialogs  
