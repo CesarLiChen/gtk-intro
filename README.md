@@ -8,10 +8,10 @@ Developed under a Fedora 41 system.
 Installation and compilation instructions from [Fedora's documentation](https://developer.fedoraproject.org/tech/languages/c/gtk.html) on the matter.
 - Install necessary packages:
 - ```
-sudo dnf install gtk3-devel gstreamer1-devel clutter-devel webkit2gtk3-devel libgda-devel gobject-introspection-devel
-```
+  sudo dnf install gtk3-devel gstreamer1-devel clutter-devel webkit2gtk3-devel libgda-devel gobject-introspection-devel
+  ```
 - To compile (e.g. compiling a file called gtk_prog.c):
-- `gcc \`pkg-config --cflags --libs gtk+-3.0\` -o gtk_prog gtk_prog.c`
+- ``gcc `pkg-config --cflags --libs gtk+-3.0` -o gtk_prog gtk_prog.c`` (remember the backticks)  
 - To run executable that is created, do: `./gtk_prog`
 
 ### Follows An Introduction to C & GUI Programming book.
