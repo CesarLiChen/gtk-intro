@@ -64,5 +64,9 @@ Ch. 22: Dialogs
 - [gtk_dialogs.c](gtk_dialogs.c)  
 
 Ch. 23: Built-in dialogs  
+- File chooser
+- Save file chooser
+-[gtk_builtin_dialogs.c](gtk_builtin_dialogs.c)
+
 Ch. 24: Customising widgets  
 Ch. 25: Glade  
