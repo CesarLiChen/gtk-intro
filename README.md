@@ -61,6 +61,8 @@ Ch. 21: Menus
 - [gtk_menus.c](gtk_menus.c)
 
 Ch. 22: Dialogs  
+- [gtk_dialogs.c](gtk_dialogs.c)  
+
 Ch. 23: Built-in dialogs  
 Ch. 24: Customising widgets  
 Ch. 25: Glade  
