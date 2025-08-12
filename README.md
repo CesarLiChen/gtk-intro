@@ -66,6 +66,8 @@ Ch. 22: Dialogs
 Ch. 23: Built-in dialogs  
 - File chooser
 - Save file chooser
+- Colour picker
+- Font picker
 -[gtk_builtin_dialogs.c](gtk_builtin_dialogs.c)
 
 Ch. 24: Customising widgets  

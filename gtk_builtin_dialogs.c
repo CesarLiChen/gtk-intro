@@ -28,6 +28,25 @@ static void save_file(GtkWidget *btn, gpointer ptr)
     gtk_widget_destroy(sch);
 }
 
+static void clr_selected(GtkColorChooser *btn, gpointer ptr)
+{
+    GdkRGBA clr;
+
+    /* DEPRECATED
+    gtk_color_button_get_color(btn, &clr);
+    */
+    gtk_color_chooser_get_rgba(btn, &clr);
+    printf("red = %d; green = %d; blue = %d\n", clr.red, clr.green, clr.blue);
+}
+
+static void fnt_selected(GtkFontChooser *btn, gpointer ptr)
+{
+    /* DEPRECATED too
+    printf("font = %s\n", gtk_font_button_get_font_name(btn));
+    */
+    printf("font = %s\n", gtk_font_chooser_get_font(btn));
+}
+
 int main(int argc, char *argv[])
 {
     gtk_init(&argc, &argv);
@@ -53,8 +72,18 @@ int main(int argc, char *argv[])
     GtkWidget *sv_btn = gtk_button_new_with_label("Save THIS");
     g_signal_connect(sv_btn, "clicked", G_CALLBACK(save_file), win);
 
+    /* Colour picker button */
+    GtkWidget *clr_btn = gtk_color_button_new();
+    g_signal_connect(clr_btn, "color-set", G_CALLBACK(clr_selected), NULL);
+
+    /* Font selector button */
+    GtkWidget *fnt_btn = gtk_font_button_new();
+    g_signal_connect(fnt_btn, "font-set", G_CALLBACK(fnt_selected), NULL);
+
     gtk_box_pack_start(GTK_BOX(box), fc_btn, TRUE, TRUE, 0);
     gtk_box_pack_start(GTK_BOX(box), sv_btn, TRUE, TRUE, 0);
+    gtk_box_pack_start(GTK_BOX(box), clr_btn, TRUE, TRUE, 0);
+    gtk_box_pack_start(GTK_BOX(box), fnt_btn, TRUE, TRUE, 0);
     gtk_box_pack_start(GTK_BOX(box), btn, TRUE, TRUE, 0);
 
     gtk_widget_show_all(win);
