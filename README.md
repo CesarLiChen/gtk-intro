@@ -71,4 +71,7 @@ Ch. 23: Built-in dialogs
 -[gtk_builtin_dialogs.c](gtk_builtin_dialogs.c)
 
 Ch. 24: Customising widgets  
+- [gtk_customize_widgets.c](gtk_customize_widgets.c)
+
 Ch. 25: Glade  
+- A layout editor for GTK.
