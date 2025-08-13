@@ -14,7 +14,8 @@ Installation and compilation instructions from [Fedora's documentation](https://
 - ``gcc `pkg-config --cflags --libs gtk+-3.0` -o gtk_prog gtk_prog.c`` (remember the backticks)  
 - To run executable that is created, do: `./gtk_prog`
 
-### Follows An Introduction to C & GUI Programming book.
+### Follows An Introduction to C & GUI Programming book.  
+The book used GTK 2 but I utilized GTK 3. Although some functions where deprecated I've searched and made use of the recommended ones.
 
 Specifically:  
 Ch. 13: Intro to GTK  
