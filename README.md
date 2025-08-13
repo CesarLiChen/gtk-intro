@@ -17,7 +17,7 @@ Installation and compilation instructions from [Fedora's documentation](https://
 ### Follows An Introduction to C & GUI Programming book.  
 The book used GTK 2 but I utilized GTK 3. Although some functions where deprecated I've searched and made use of the recommended ones.
 
-Specifically:  
+Since the book also gives a small intro to the C language, below are the GTK chapters that I followed:  
 Ch. 13: Intro to GTK  
 - GTK -> GIMP Toolkit
 - *Widgets* are the fundamental building blocks.
